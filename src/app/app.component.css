@@ -1,0 +1,35 @@
+.createBtn{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 70px;
+    margin-left: 105px;
+}
+.container1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: rgb(26, 25, 25);
+    border-radius: 5px;
+    height: 45px;
+    width: 250px;
+}
+.container2{
+    font-size: xx-large;
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight:bold;
+}
+.new{
+    margin-left: 130px;
+    width: 120px;
+    height: 45px;
+    color: ghostwhite;
+    background-color: rgb(74, 74, 219);
+    border-radius: 5px;
+    font-size: 17px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}

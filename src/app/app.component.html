@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>ToDo List</title>
+</head>
+<div>
+    <div class="container1">
+        <button class="createBtn" onclick="window.location.reload();">To-Do List</button>  <br> 
+        <input [(ngModel)]="addTask" type="text" value="" ><br>
+        <button (click)="addList()" class="new" *ngIf="addTask.length">Add List</button>
+    </div>
+    <div class="container2">
+        <div *ngFor="let x of items; let index = index;" >
+        <div  >{{x}}</div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
